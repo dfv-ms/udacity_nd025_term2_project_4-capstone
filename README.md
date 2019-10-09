@@ -29,3 +29,13 @@ provides a function for offer-prediction.
 ### data/
 portfilio.json, profile.json and transcript.json contain the data given by
 Udacity/Starbuck's.
+
+## Results
+After analyzing the the transaction-data and personal-data we can identify two
+groups of customers: One with a lot of personal data and one with very few.
+
+For both groups a machine learning model is trained. As expected the accuracy
+in the first case is better than in the second one.
+
+This model is used in a function to predict which kind of offer has the best
+chance of completing for an arbitrarly given person.
